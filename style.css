@@ -1,0 +1,234 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+header {
+  background-image: linear-gradient(to right, rgb(111, 73, 248), rgb(169, 147, 247));
+  font-size: large;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  position:relative;
+  display: flex;
+  
+ 
+}
+
+.icon-header {
+  width: 20%;
+}
+
+.nav-link {
+  color: black;
+
+}
+
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.search-img {
+  background-image: url(./img/TB-BG.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 800px;
+  background-attachment: fixed;
+  background-size: cover;
+
+   }
+ 
+  input#search{
+    text-align: center;
+    align-items: center;
+  }
+  
+   .search input {
+      width: 100%;
+      height: 50px;
+      padding: 0 20px;
+      font-size: 18px;
+      color: black;
+      outline: none;
+      border: 1px solid silver;
+      border-radius: 30px;
+      
+   }
+  
+#carrito {
+  cursor: pointer;
+  width: 25%;
+ }
+
+.container {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 280px;
+  height: 300px;
+  padding: 20px;
+  margin: 10px;
+  border-width: 1;
+  border-style: solid;
+  border-color: rgb(253, 255, 124);
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0px 10px 10px -6px rgb(240, 52, 52);
+
+  & h1 {
+      transform: scale(1);
+      transition: 0.3s ease-in;
+  }
+
+  & h1:hover {
+      transform: scale(1.4);
+  }
+
+  & .card-title {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 800;
+  }
+
+ & button:active {
+      background-color: rgb(63, 2, 2) !important;
+      color: rgb(105, 5, 5) !important;
+  }
+}
+
+.card:hover {
+  transition: box-shadow .3s ease-in;
+  box-shadow: 0px 10px 10px -4px rgb(188, 188, 188);
+}
+
+.imagen {
+  width: 70px;
+  height: 70px;
+  float: right;
+}
+
+.imagen-fija {
+  z-index: 9999;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+
+
+
+
+.listado {
+position: relative;
+
+  & thead {
+      background-color: rgb(255, 196, 0);
+      color: black;
+     
+
+      & th {
+          padding: 10px;
+      }
+  }
+
+  & tbody {
+      background-color: white;
+
+      & td {
+          padding: 10px;
+      }
+      
+      .boton-eliminar {
+          text-align: left;
+          cursor: pointer;
+          font-size: x-large;
+      }
+  }
+
+  & tfoot {
+      font-weight: 700;
+      font-size: larger;
+  }
+}
+
+.button-outline:hover {
+  background-color: lightgray !important;
+}
+
+.button-outline:active {
+  background-color: grey !important;
+  color: whitesmoke !important;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  width: 100%;
+  color: black;
+  background-color: rgb(169, 147, 247);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 2px 4px 20px gray;
+
+  & h3 {
+      font-size: 2rem;
+  }
+}
+
+.footer2 {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color:rgb(169, 147, 247);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 2px 4px 20px gray;
+
+  & h3 {
+      font-size: 2rem;
+  }
+}
+@media (max-width: 950px) {
+  .header {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .search-img {
+   height: 100%;
+    }
+    .search input {
+      width: 100%;
+      height: 50px;
+      padding: 0 20px;
+      font-size: 10px;
+      color: black;
+      outline: none;
+      border: 1px solid silver;
+      border-radius: 30px;
+      
+      
+   }
+}
