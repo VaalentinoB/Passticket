@@ -57,10 +57,16 @@ function cargarEventos(array) {
 
 function obtenerEventosJSON() {
  fetch(URL)  
- .then((JSON)=> JSON.json()  ) 
+ .then((JSON)=> {
+   if (JSON.ok) { 
+    return JSON.json() 
+} else {
+    throw new Error("No hay datos de los productos ")
+    .catch((error) => tBody.innerHTML = CardError())
+}}) 
  .then((datos)=> eventos.push(...datos))
  .then(()=> cargarEventos(eventos))
- .catch((error) => tBody.innerHTML = CardError())
+ 
 }
 obtenerEventosJSON()
 
