@@ -60,7 +60,7 @@ function obtenerEventosJSON() {
  .then((JSON)=> JSON.json()  ) 
  .then((datos)=> eventos.push(...datos))
  .then(()=> cargarEventos(eventos))
- .catch((error) => console.error(error))
+ .catch((error) => tBody.innerHTML = CardError())
 }
 obtenerEventosJSON()
 
