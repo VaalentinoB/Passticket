@@ -1,74 +1,62 @@
 [
-    {
-      "id":3421,
-      "nombre":"Abel Pintos - Entrada General",
-      "precio":16000,
-      "imagen":"./img/abel.png"
-    },
-    {
-      "id":6753,
-      "nombre":"Ciro y los persas - Entrada General",
-      "precio":20000,
-      "imagen":"./img/ciro.png"
-    },
-    {
-      "id":1231,
-      "nombre":"Cosquin rock - AllPass",
-      "precio":50000,
-      "imagen":"./img/cosquin.png"
-    },
-    {
-      "id":5347,
-      "nombre":"J Rei - Entrada General",
-      "precio":12000,
-      "imagen":"./img/rei.jpg"
-    },
-    {
-      "id":9875,
-      "nombre":"Festival Buena vibra - Pase libre",
-      "precio":30000,
-      "imagen":"./img/buena-vibra.png"
-    },
-    {
-      "id":6314,
-      "nombre":"Tan bionica Mendoza - Campo general",
-      "precio":28000,
-      "imagen":"./img/tanbionica-mendoza.png"
-    },
-    {
-      "id":7349,
-      "nombre":"Afterlife - General",
-      "precio":60000,
-      "imagen":"./img/afterlife.jpg"
-    },
-    {
-      "id":8197,
-      "nombre":"Lollapalooza - Three DayPass",
-      "precio":120000,
-      "imagen":"./img/Lollapalooza.png"
-    },
-    {
-      "id":9234,
-      "nombre":"Maria becerra - Experiencia automatico",
-      "precio":50000,
-      "imagen":"./img/maria.png"
-    },
-    {
-      "id":1003,
-      "nombre":"Duki - Campo Delantero",
-      "precio":20000,
-      "imagen":"./img/DukiRiver.jpg"
-    },
-    {
-      "id":1101,
-      "nombre":"Tan Bionica - Alta sivori",
-      "precio":15000,
-      "imagen":"./img/tanbionica-card.png"
-    },
-    {
-      "id":1252,
-      "nombre":"Tan Bionica - Estadio Unico",
-      "precio":15000,
-      "imagen":"./img/tanbionica-lp.png"
-    }
-  ]
+  {
+    "id": 3421,
+    "nombre": "Abel Pintos - Entrada General",
+    "precio": 16000,
+    "imagen": "./img/abel.png"
+  },
+  {
+    "id": 6753,
+    "nombre": "Ciro y los persas - Entrada General",
+    "precio": 20000,
+    "imagen": "./img/ciro.png"
+  },
+  {
+    "id": 1231,
+    "nombre": "Cosquin rock - AllPass",
+    "precio": 50000,
+    "imagen": "./img/cosquin.png"
+  },
+  {
+    "id": 5347,
+    "nombre": "J Rei - Entrada General",
+    "precio": 12000,
+    "imagen": "./img/rei.jpg"
+  },
+  {
+    "id": 9875,
+    "nombre": "Festival Buena vibra - Pase libre",
+    "precio": 30000,
+    "imagen": "./img/buena-vibra.png"
+  },
+  {
+    "id": 6314,
+    "nombre": "Tan bionica Mendoza - Campo general",
+    "precio": 28000,
+    "imagen": "./img/tanbionica-mendoza.png"
+  },
+  {
+    "id": 7349,
+    "nombre": "Afterlife - General",
+    "precio": 60000,
+    "imagen": "./img/afterlife.jpg"
+  },
+  {
+    "id": 8197,
+    "nombre": "Lollapalooza - Three DayPass",
+    "precio": 120000,
+    "imagen": "./img/Lollapalooza.png"
+  },
+  {
+    "id": 9234,
+    "nombre": "Maria becerra - Experiencia automatico",
+    "precio": 50000,
+    "imagen": "./img/maria.png"
+  },
+  {
+    "id": 1003,
+    "nombre": "Duki - Campo Delantero",
+    "precio": 20000,
+    "imagen": "./img/DukiRiver.jpg"
+  }
+]
